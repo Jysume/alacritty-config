@@ -4,4 +4,5 @@
 可配合win11 wsl2和PowerToys使用
 ## 主要参考
 https://github.com/chaozwn/alacritty
+
 https://www.bilibili.com/video/BV1RV411u7Hp
