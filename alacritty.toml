@@ -1,0 +1,48 @@
+import = [
+    "./themes/themes/kanagawa_dragon.toml",
+    "C:/Users/wm221/AppData/Roaming/alacritty/fonts.toml",
+]
+live_config_reload = true
+working_directory = "C:/Users/wm221"
+
+[shell]
+program = "PWSH"
+args = ["-l"]
+
+
+[window]
+dimensions = { columns = 120, lines = 35 }
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+dynamic_title = true
+decorations = "None"
+opacity = 0.8
+option_as_alt = "Both"
+startup_mode = "Windowed"
+resize_increments = true
+
+[scrolling]
+history = 10000
+
+[bell]
+animation = "EaseOutExpo"
+duration = 100
+color = "#ffffff"
+
+[cursor]
+style = { shape = "Beam", blinking = "Always" }
+vi_mode_style = { shape = "Beam", blinking = "Always" }
+unfocused_hollow = true
+blink_interval = 700
+blink_timeout = 3
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+
+bindings = [
+    { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" },
+    { key = "F11", action = "ToggleMaximized" },
+    { key = "C", mods = "Control|Shift", action = "Copy" },
+]
